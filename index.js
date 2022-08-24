@@ -1,18 +1,22 @@
-console.log('Starting...')
-let { spawn } = require('child_process')
+console.log('Running...')
+let cluster = require('cluster')
 let path = require('path')
 let fs = require('fs')
 let package = require('./package.json')
-const CFonts  = require('cfonts')
-CFonts.say('MakimaBotz', {
-  font: 'chrome',
+const CFonts = require('cfonts')
+const Readline = require('readline')
+const yargs = require('yargs/yargs')
+const rl = Readline.createInterface(process.stdin, process.stdout)
+
+CFonts.say('Raxcel-Bot', {
+  colors: ['#f2aa4c'],
+  font: 'block',
   align: 'center',
-  gradient: ['red', 'magenta']
 })
-CFonts.say(`'Makima Chan Is The Best' }\n Creator MakimaBotz\n Recode By ImYanXiao`, {
+CFonts.say(`${package.name} Di Buat Oleh @${package.author.name || package.author}`, {
+  colors: ['#f2aa4c'],
   font: 'console',
   align: 'center',
-  gradient: ['red', 'magenta']
 })
 
 var isRunning = false
@@ -29,9 +33,11 @@ function start(file) {
     align: 'center',
     gradient: ['red', 'magenta']
   })
-  let p = spawn(process.argv[0], args, {
-    stdio: ['inherit', 'inherit', 'inherit', 'ipc']
+  cluster.setupMaster({
+    exec: path.join(__dirname, file),
+    args: args.slice(1),
   })
+  let p = cluster.fork()
   p.on('message', data => {
     console.log('[RECEIVED]', data)
     switch (data) {
@@ -54,6 +60,11 @@ function start(file) {
       start(file)
     })
   })
+  let opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
+  if (!opts['test'])
+    if (!rl.listenerCount()) rl.on('line', line => {
+      p.emit('message', line.trim())
+    })
   // console.log(p)
 }
 
