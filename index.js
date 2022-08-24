@@ -4,12 +4,12 @@ let path = require('path')
 let fs = require('fs')
 let package = require('./package.json')
 const CFonts  = require('cfonts')
-CFonts.say('HaoriBotz', {
+CFonts.say('MakimaBotz', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say(`'Haori Chan Is The Best' }\n Hargai Saya Bang Sebagai Creator Haoribotz\n Recode By Zivfurr`, {
+CFonts.say(`'Makima Chan Is The Best' }\n Creator MakimaBotz\n Recode By ImYanXiao`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
