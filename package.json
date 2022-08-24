@@ -32,7 +32,7 @@
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "@adiwajshing/baileys": "github:adiwajshing/baileys#master",
+    "@adiwajshing/baileys": "^4.4.0",
     "awesome-phonenumber": "^2.68.0",
     "brainly-scraper-v2": "^2.0.9",
     "cfonts": "^2.9.3",
