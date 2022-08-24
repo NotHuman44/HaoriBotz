@@ -31,7 +31,6 @@ let list = []
 const buttonsMessage = {
     contentText: `
 Itu Owner Ku Kak >ω<
-*Sewa Bot 5k Permanent Chat Aja*
 `.trim(),    footerText: ``,
     buttons: buttons,
   headerType: 'EMPTY'
