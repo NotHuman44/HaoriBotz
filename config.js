@@ -33,47 +33,31 @@ let wktu = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 gc1 = ''
 gc2 = ''
 gc3 = ''
-global.linkGC = ['https://chat.whatsapp.com/Fh0eaf7IuuG3i67wXRC1O8', ''] // ganti jadi group lu
-global.owner = ['6285158866902'] // Put your number here //owner eval
-global.kontak = ['6285158866902','6282186172016'] //Ketika ada yang ngetik #owner
-global.mods = ['6285158866902'] // Want some help?
-global.prems = ['6285158866902'] // Premium user has unlimited limit
+global.linkGC = ['https://chat.whatsapp.com/HbPRdFCUe6NGtqcditLDKe', ''] // ganti jadi group lu
+global.owner = ['6285736178354'] // Put your number here //owner eval
+global.kontak = ['6285736178354','6282186172016'] //Ketika ada yang ngetik #owner
+global.mods = ['6285736178354'] // Want some help?
+global.prems = ['6285736178354'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com', 
   xteam: 'https://api.xteam.xyz',
   zahir: 'https://zahirr-web.herokuapp.com',
-  lol: 'https://api.lolhuman.xyz',
-  dhnjing: 'https://dhnjing.xyz',
-  zeks: 'https://api.zeks.me',
-  pencarikode: 'https://pencarikode.xyz',
-  bear: 'https://apikey-bear.herokuapp.com',
-  bear2: 'https://apikey-bear2.herokuapp.com',
-  bear3: 'https://apikey-bear3.herokuapp.com',
-  LeysCoder: 'https://leyscoders-api.herokuapp.com'
+  lol: 'https://api.lolhuman.xyz'
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey' (apikey kalian)
   'https://api.xteam.xyz': 'buy',
   'https://api.lolhuman.xyz': 'buy',
-  'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.zeks.me': 'apivinz',
-  'https://pencarikode.xyz': 'pais',
-  'https://apikey-bear.herokuapp.com': 'buy',
-  'https://apikey-bear2.herokuapp.com': 'buy',
-  'https://apikey-bear3.herokuapp.com': 'buy',
-  'https://leyscoders-api.herokuapp.com': 'dappakntlll'
+  'https://zahirr-web.herokuapp.com': 'zahirgans'
 }
 
 lolkey = 'buy'
-zekskey = 'apivinz'
 xteamkey = 'buy'
-leyskey = 'dappakntlll'
-bearkey = 'buy'
 
 //xteam        MIMINETBOT
-namaig = 'https://instagram.com/drak_ipul123'
-namagithub = 'GAK ADA :)'
+namaig = 'https://instagram.com/Xiao_yan_21'
+namagithub = 'ImYanXiao'
 kasihcaption = `Nih kak`
 namakontak1 = ''
 namakontak2 = ''
@@ -81,15 +65,15 @@ namakontak2 = ''
 //kasihcaption = `Nih Kak`
 
 // Sticker WM
-global.packname = '▧ Hασrι - Chαn' // ganti aja
-global.author = '© Zîѵғurr' // ganti aja
+global.packname = '▧ ʙʏ' // ganti aja
+global.author = 'ᴍᴀᴋɪᴍᴀ ʙᴏᴛᴢ' // ganti aja
 
 //yyy
-bc = 'Ħασяιвσтʓ' //King Of Bear Broadcast
+bc = 'ᴍᴀᴋɪᴋᴀᴍвσтʓ' //King Of Bear Broadcast
 footer = '\nHᴀᴏʀɪBᴏᴛᴢ 🔭'
-namabot = '𝙷𝚊𝚘𝚛𝚒 𝙱𝚘𝚝𝚣 🐾'
-namalu = 'Zivfurr'
-global.botwm = `𝙷𝚊𝚘𝚛𝚒 𝙱𝚘𝚝𝚣 🐾`//UBAH JADI NAMAMU
+namabot = 'ᴍᴀᴋɪᴍᴀ 𝙱𝚘𝚝𝚣 🐾'
+namalu = 'Xiao - Yan'
+global.botwm = `ᴍᴀᴋɪᴍᴀ ʙᴏᴛᴢ 🐾`//UBAH JADI NAMAMU
 
 
 // 
