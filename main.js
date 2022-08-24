@@ -1,4 +1,3 @@
-process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
 require('./config')
 const {
   useSingleFileAuthState,
@@ -47,8 +46,8 @@ global.DATABASE = global.db // Backwards Compatibility
 
 global.conn = new WAConnection()
 conn.version =[2,2143,3]
-conn.browserDescription =[' Haoribotz By Zivfurr :3 ', 'Opera', '3.0']
-let authFile = `${opts._[0] || 'Haoribotz'}.json`
+conn.browserDescription =[' Makina By ImYanXiao :3 ', 'Safari', '3.0']
+let authFile = `${opts._[0] || 'session'}.json`
 if (fs.existsSync(authFile)) conn.loadAuthInfo(authFile)
 if (opts['trace']) conn.logger.level = 'trace'
 if (opts['debug']) conn.logger.level = 'debug'
