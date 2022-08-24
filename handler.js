@@ -576,9 +576,9 @@ global.dfail = (type, m, conn) => {
 
 	let namae = conn.getName(syappa)
   let msg = {
-    rowner: `Khusus Untuk Zivfurr Tersayang >w<`,
-    owner: `Khusus Untuk Zivfurr Tersayang >w<`,
-    mods: `Khusus Untuk Zivfurr Tersayang >w<`,
+    rowner: `Khusus Untuk Owner >w<`,
+    owner: `Khusus Untuk Owner >w<`,
+    mods: `Khusus Untuk Moderator >w<`,
     premium: 'Perintah Ini khusus pengguna _*Premium*_ !',
     group: 'Perintah ini hanya dapat digunakan di grup!',
     private: 'Pakai Di Chat Pribadi Bang',
