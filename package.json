@@ -32,9 +32,9 @@
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "@adiwajshing/baileys": "^3.5.3",
-    "awesome-phonenumber": "^2.54.0",
-    "brainly-scraper-v2": "^2.0.4-1",
+    "@adiwajshing/baileys": "github:adiwajshing/baileys#master",
+    "awesome-phonenumber": "^2.68.0",
+    "brainly-scraper-v2": "^2.0.9",
     "cfonts": "^2.9.3",
     "chalk": "^4.1.1",
     "cheerio": "^1.0.0-rc.5",
@@ -49,7 +49,7 @@
     "jsdom": "^16.6.0",
     "lodash": "^4.17.21",
     "lowdb": "^2.1.0",
-    "moment-timezone": "^0.5.32",
+    "moment-timezone": "^0.5.34",
     "spinnies": "^0.5.0",
     "image-to-base64": "^2.1.1",
     "minecraft-server-util": "^3.5.3",
@@ -68,7 +68,7 @@
     "translate-google-api": "^1.0.4",
     "url-regex": "^5.0.0",
     "xmldom": "^0.6.0",
-    "yargs": "^17.0.1",
-    "yt-search": "^2.9.0"
+    "yargs": "^17.3.1",
+    "yt-search": "^2.10.3"
   }
 }
