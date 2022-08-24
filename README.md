@@ -13,14 +13,14 @@
   
 `Information  `</p>  
  ​</p> `bahasa Indonesia  `
- ​</p> Haoribotz adalah bot yang menggunakan script dari AlyaXyz dan di recode oleh Zivfurr 
+ ​</p> Makimabotz adalah bot yang menggunakan script dari AlyaXyz dan di recode oleh ImYanXiao
 </p>  Jika kamu menemukan semacam bug/error, harap untuk dimaklumi sementara.  
 
 
 </p> 
 
  `Language English ` </p> 
-Haoribotz is a bot that uses a script from AlyaXyz and is recoded by Zivfurr 
+Makimabotz is a bot that uses a script from AlyaXyz and is recoded by ImYanXiao
 </p>  ​If you find some kind of bug/error, please forgive me for a while  
    
    
@@ -46,7 +46,7 @@ Haoribotz is a bot that uses a script from AlyaXyz and is recoded by Zivfurr
  ​apt install nodejs -y 
  ​apt install ffmpeg -y 
  ​apt install imagemagick -y 
- ​git clone https://github.com/Colindonesia/HaoriBotz
+ ​git clone https://github.com/NotHuman44/MakimaBotz
  ​cd​ Haoribotz
  ​npm install 
  ​npm update 
@@ -57,7 +57,7 @@ Heroku Buildpack
 ```bash 
 > heroku/nodejs 
 > https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest 
-> https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git
+> https://github.com/bogini/heroku-buildpack-graphicsmagick
 ```
  
  ​Server harus memiliki spesifikasi seperti ini 
@@ -109,4 +109,4 @@ Heroku Buildpack
   
 
   
- ​ [![​Zivfurr](https://github.com/Colindonesia.png?size=100)](https://github.com/Colindonesia) </p>  `Creator`  </p>    [![​Yanzz](https://github.com/Yanzz-Bot.png?size=100)](https://github.com/Yanzz-Bot)</p>  `Partner`
+ ​ [![​ImYanXiao](https://github.com/ImYanXiao.png?size=100)](https://github.com/ImYanXiao) </p>  `Creator`  </p>    [![​Yanzz](https://github.com/Yanzz-Bot.png?size=100)](https://github.com/Yanzz-Bot)</p>  `Partner`
