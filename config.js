@@ -43,7 +43,9 @@ global.APIs = { // API Prefix
   nrtm: 'https://nurutomo.herokuapp.com', 
   xteam: 'https://api.xteam.xyz',
   zahir: 'https://zahirr-web.herokuapp.com',
-  lol: 'https://api.lolhuman.xyz'
+  lol: 'https://api.lolhuman.xyz', 
+  dzx: 'https://api.dhamzxploit.my.id', 
+  males: 'https://malesin.xyz'
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey' (apikey kalian)
