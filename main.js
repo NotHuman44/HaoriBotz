@@ -1,5 +1,9 @@
-require('./config.js')
-const { WAConnection: _WAConnection } = require('@adiwajshing/baileys')
+process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
+require('./config')
+const {
+  useSingleFileAuthState,
+  DisconnectReason
+} = require('@adiwajshing/baileys')
 const cloudDBAdapter = require('./lib/cloudDBAdapter')
 const { generate } = require('qrcode-terminal')
 const syntaxerror = require('syntax-error')
