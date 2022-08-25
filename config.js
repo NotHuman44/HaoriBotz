@@ -12,7 +12,7 @@
 // thank you to ALL Bot creator
 // and thanks you to who support my Bot
 
-//wektukk
+//Waktu
 let moment = require('moment-timezone')
 let d = new Date(new Date + 3600000)
 let locale = 'id'
